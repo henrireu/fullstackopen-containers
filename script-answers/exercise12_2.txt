@@ -1,0 +1,21 @@
+Script started on 2024-12-11 12:53:46+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;henri@LAPTOP-9VI55CH5: ~/fullstackopen-containers[01;32mhenri@LAPTOP-9VI55CH5[00m:[01;34m~/fullstackopen-containers[00m$ mkdir -p ([K/usr/src/app
+[?2004lmkdir: cannot create directory ‘/usr/src/app’: Permission denied
+[?2004h]0;henri@LAPTOP-9VI55CH5: ~/fullstackopen-containers[01;32mhenri@LAPTOP-9VI55CH5[00m:[01;34m~/fullstackopen-containers[00m$ cd ..
+[?2004l[?2004h]0;henri@LAPTOP-9VI55CH5: ~[01;32mhenri@LAPTOP-9VI55CH5[00m:[01;34m~[00m$ mkdir -p /usr/src/app
+[?2004lmkdir: cannot create directory ‘/usr/src/app’: Permission denied
+[?2004h]0;henri@LAPTOP-9VI55CH5: ~[01;32mhenri@LAPTOP-9VI55CH5[00m:[01;34m~[00m$ cd[K[Kcd fullstackopen-containers
+[?2004l[?2004h]0;henri@LAPTOP-9VI55CH5: ~/fullstackopen-containers[01;32mhenri@LAPTOP-9VI55CH5[00m:[01;34m~/fullstackopen-containers[00m$ sudo mkdir -p /usr/src/app
+[?2004l[sudo] password for henri: 
+[?2004h]0;henri@LAPTOP-9VI55CH5: ~/fullstackopen-containers[01;32mhenri@LAPTOP-9VI55CH5[00m:[01;34m~/fullstackopen-containers[00m$ sudo echo "//test comment" > /usr/src/app/index.js
+[?2004lbash: /usr/src/app/index.js: Permission denied
+[?2004h]0;henri@LAPTOP-9VI55CH5: ~/fullstackopen-containers[01;32mhenri@LAPTOP-9VI55CH5[00m:[01;34m~/fullstackopen-containers[00m$ ec[K[K[7mecho "//test comment" > /usr/src/app/index.js[27mecho "//test comment" > /usr/src/app/index.js
+[?2004lbash: /usr/src/app/index.js: Permission denied
+[?2004h]0;henri@LAPTOP-9VI55CH5: ~/fullstackopen-containers[01;32mhenri@LAPTOP-9VI55CH5[00m:[01;34m~/fullstackopen-containers[00m$ [7msudo bash -c 'echo "//test comment" > /usr/src/app/index.js'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo bash -c 'echo "//test comment" > /usr/src/app/index.js'
+[?2004l[?2004h]0;henri@LAPTOP-9VI55CH5: ~/fullstackopen-containers[01;32mhenri@LAPTOP-9VI55CH5[00m:[01;34m~/fullstackopen-containers[00m$ exit
+[?2004lexit
+
+Script done on 2024-12-11 12:59:32+02:00 [COMMAND_EXIT_CODE="0"]
